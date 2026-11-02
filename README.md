@@ -10,12 +10,6 @@ A high-performance, native macOS menu bar agent that transforms gamepads into hi
 
 ---
 
-<p align="center">
-  <img src="docs/screenshot.png" alt="Controller4Mac Menu Bar UI" width="380" />
-</p>
-
----
-
 ## ⚡ Highlights
 
 - 🕹️ **Analog Mouse & 2-Axis Scrolling** — 60 FPS sub-pixel cursor movement and continuous scrolling with customizable deadzones and multi-monitor edge clamping.
