@@ -1,0 +1,73 @@
+# ==============================================================================
+# Controller4Mac - Xcode & macOS Git Ignore Rules
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# Xcode & Build Artifacts
+# ------------------------------------------------------------------------------
+build/
+DerivedData/
+*.build/
+*.xcarchive
+*.dSYM/
+*.dia
+*.tmp
+
+# ------------------------------------------------------------------------------
+# User Data & Workspace State (User-Specific)
+# ------------------------------------------------------------------------------
+*.xcuserdata
+*.xcuserdatad
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+*.xccheckout
+
+# Keep shared schemes if tracked, ignore user-specific schemes
+!default.mode1v3
+!default.mode2v3
+!default.pbxuser
+!default.perspectivev3
+
+# ------------------------------------------------------------------------------
+# Swift Package Manager & Dependencies
+# ------------------------------------------------------------------------------
+.build/
+Packages/
+Package.pins
+Package.resolved
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/configuration/
+
+# ------------------------------------------------------------------------------
+# Code Signing, Keys, Certificates & Provisioning
+# ------------------------------------------------------------------------------
+*.cer
+*.crt
+*.p12
+*.pfx
+*.keystore
+*.mobileprovision
+*.provisionprofile
+*.signingreport
+
+# ------------------------------------------------------------------------------
+# macOS System Files
+# ------------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+Icon
+ehthumbs.db
+Thumbs.db
+
+# ------------------------------------------------------------------------------
+# Temporary & Log Files
+# ------------------------------------------------------------------------------
+*.log
+*.swp
+*.swo
+*~
